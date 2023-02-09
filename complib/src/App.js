@@ -3,6 +3,7 @@ import Button from "./components/button/button";
 import Form from "./components/form/form";
 import Select from "./components/select/select"
 import Counter from "./components/counter/counter";
+import InputBtn from "./components/inputBtn/inputBtn";
 import { FaHeart } from "react-icons/fa";
 
 function App() {
@@ -52,7 +53,12 @@ function App() {
       <div className="component-counter">
         <Counter starting={0} min={0} max={10} amount={2}/>
       </div>
-
+      
+      <h2>Form With Button</h2>
+      <div>
+        <InputBtn placeholder="voucher large" label="redeem" size="large"/>
+        <InputBtn placeholder="voucher small" label="redeem" size="small"/>
+      </div>
 
 
   </div>
