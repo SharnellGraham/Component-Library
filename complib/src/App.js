@@ -1,6 +1,6 @@
 
 import Button from "./components/button/button";
-
+import Form from "./components/form/form";
 
 import { FaHeart } from "react-icons/fa";
 
@@ -29,7 +29,21 @@ function App() {
         <Button label="Small" type="danger" size="small"/>
         <Button label="Add to Favorites" type="primary" size ="smaller" icon={<FaHeart />} />
       </div>
+     
+      <h2>Forms</h2>
+      <div className="component-forms">
+        <Form label="Regular" size=""/>
+        <Form label="Small" size="small"/>
+        <Form label="Large" size="large"/>
+        <Form placeholder="No Label" size=""/>
+      </div>
+  
+  
+  
+  
   </div>
+
+  
   )
 }
      
