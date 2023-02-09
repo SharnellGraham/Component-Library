@@ -4,6 +4,7 @@ import Form from "./components/form/form";
 import Select from "./components/select/select"
 import Counter from "./components/counter/counter";
 import InputBtn from "./components/inputBtn/inputBtn";
+import Checkbox from "./components/checkbox/checkbox";
 import { FaHeart } from "react-icons/fa";
 
 function App() {
@@ -60,11 +61,16 @@ function App() {
         <InputBtn placeholder="voucher small" label="redeem" size="small"/>
       </div>
 
-
+      <h2>Checkboxes</h2>
+      <div className="component-checkbox">
+        <Checkbox color="blue" label="placeholder"/>
+        <Checkbox color="blue"/>
+        <Checkbox color="black"/>
+      </div>
   </div>
 
   
-  )
+  );
 }
      
 
