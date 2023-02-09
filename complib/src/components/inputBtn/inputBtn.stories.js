@@ -1,8 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import InputBtn from "./inputBtn"
-
-import "./inputButton.css"
+import "./inputBtn.css"
 
 storiesOf('InputBtn', module)
 .add('InputBtn', () => <InputBtn
