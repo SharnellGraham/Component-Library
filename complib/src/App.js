@@ -1,6 +1,7 @@
 
 import Button from "./components/button/button";
 import Form from "./components/form/form";
+import Select from "./components/select/select"
 
 import { FaHeart } from "react-icons/fa";
 
@@ -37,7 +38,14 @@ function App() {
         <Form label="Large" size="large"/>
         <Form placeholder="No Label" size=""/>
       </div>
-  
+      
+      <h2>Select Forms</h2>
+      <div className="component-select">
+        <Select placeholder="Regular"/>
+        <Select placeholder="Large" size="large"/>
+        <Select placeholder="Small" size="small"/>
+        <Select placeholder="Filled" fill="filled"/>
+      </div>
   
   
   
