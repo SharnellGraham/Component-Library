@@ -2,7 +2,7 @@
 import Button from "./components/button/button";
 import Form from "./components/form/form";
 import Select from "./components/select/select"
-
+import Counter from "./components/counter/counter";
 import { FaHeart } from "react-icons/fa";
 
 function App() {
@@ -48,7 +48,13 @@ function App() {
       </div>
   
   
-  
+      <h2>Counter</h2>
+      <div className="component-counter">
+        <Counter starting={0} min={0} max={10} amount={2}/>
+      </div>
+
+
+
   </div>
 
   
