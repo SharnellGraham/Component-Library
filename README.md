@@ -4,4 +4,4 @@ I was given a XD file with a mockup  of the component UI elements consisting of 
 
 ### Repo URL: https://github.com/SharnellGraham/Component-Library 
 
-###  Chromatic URL: https://63e5c4d50954871f3ac29dec-xbtiqfxlny.chromatic.com/?path=/story/button--primary
+###  Deployed link :  https://sharnellgraham.github.io/Component-Library/
