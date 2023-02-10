@@ -1,0 +1,287 @@
+button {
+    border-radius: 2px;
+    padding: 20px 25px;
+}
+.button-large {
+    padding: 30px 35px;
+    
+}
+.button-small {
+    padding: 5px 5px;
+}
+
+.button-primary {
+    background-color: rgba(51, 160, 255, 1);
+    color: white;
+    border: 2px solid rgba(51, 160, 255, 1);;
+}
+.button-danger {
+    background-color: rgba(255, 72, 88, 1);
+    color: white;
+    border: 2px solid rgba(255, 72, 88, 1);
+}
+.button-success {
+    background-color: rgba(10, 208, 10, 1);
+    color: white;
+    border: 2px solid rgba(10, 208, 10, 1);
+}
+.button-warning {
+    background-color: rgba(255, 198, 0, 1);
+    color: white;
+    border: 2px solid rgba(255, 198, 0, 1);
+}
+.button- {
+    background-color: #22262A;
+    color: white;
+    border: 2px solid #22262A;
+}
+.button-primary:hover {
+    background-color: #2E90E5;
+    border: #2E90E5;
+    cursor: pointer;
+}
+.button-danger:hover {
+    background-color: #F53848;
+    cursor: pointer;
+    border: #F53848;
+}
+.button-success:hover {
+    background-color: #07C107;
+    cursor: pointer;
+    border: #07C107;
+}
+.button-warning:hover {
+    background-color: #EBB600;
+    cursor: pointer;
+    border: #EBB600;
+}
+.button-:hover {
+    background-color: #13161A;
+    cursor: pointer;
+    border: #13161A;
+}
+.button-primary-outline {
+    background-color: white;
+    color: rgba(51, 160, 255, 1);
+    pointer-events:none
+}
+.button-danger-outline {
+    background-color: white;
+    color: rgba(255, 72, 88, 1);
+    pointer-events:none
+}
+.button-success-outline {
+    background-color: white;
+    color:rgba(10, 208, 10, 1);
+    pointer-events:none
+}
+.button-warning-outline {
+    background-color: white;
+    color: rgba(255, 198, 0, 1);
+    pointer-events:none
+}
+.button-outline{
+    background-color: white;
+    color: black;
+    pointer-events: none;
+}
+.button-primary-fill {
+    background-color: rgba(51, 160, 255, .2);
+    border: 0px;
+    color: rgba(51, 160, 255, 1);
+    pointer-events:none
+}
+.button-danger-fill {
+    background-color: rgba(255, 72, 88, .2);
+    border: 0px;
+    color:#FF4858;
+    pointer-events:none
+}
+.button-success-fill {
+    background-color: rgba(10, 208, 10, .2);
+    border: 0px;
+    color: rgba(10, 208, 10, 1);
+    pointer-events:none
+}
+.button-warning-fill {
+    background-color: rgba(255, 198, 0, .2);
+    border: none;
+    color: rgba(255, 198, 0, 1);
+    pointer-events:none
+}
+.button-fill{
+    background-color: rgba(0,0,0,.2);
+    color: black;
+    border: none;
+    pointer-events: none;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+            user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark-blue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border: 2px solid rgba(51, 160, 255, 1);
+    border-radius: 2px;
+  }
+  .container input:checked ~ .checkmark-blue {
+    background-color: rgba(51, 160, 255, 1);
+  }
+  .checkmark-blue:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark-blue:after {
+    display: block;
+  }
+  .container .checkmark-blue:after {
+    left: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  /* Black button*/
+  .checkmark-black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+  }
+  .container input:checked ~ .checkmark-black {
+    background-color: black;
+  }
+  .checkmark-black:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark-black:after {
+    display: block;
+  }
+  .container .checkmark-black:after {
+    left: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width:fit-content;
+    background-color: #F6F7F8;
+    
+}
+.counter-button {
+    background-color: transparent;
+    padding: 6px 10px 6px 10px;
+    border: 0px;
+    color: rgba(51, 160, 255, 1);
+}
+
+
+label, input {
+    display: block;
+    font-family: "Lato", "sans-seriff";
+}
+label {
+    margin: 0px 0px 5px 2px;
+}
+.input-{
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
+    padding: 8px 100px 8px 10px;
+}
+.input-small {
+    padding: 3px 100px 3px 10px;
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
+}
+.input-large {
+    padding: 12px 100px 12px 10px;
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
+}
+
+
+Form {
+    display: inline-block;
+    height: auto;
+}
+.input-button-small {
+    border-radius: 0px 3px 3px 0px;
+    padding: 3.5px;
+    height: auto;
+    background-color: rgba(51, 160, 255, 1);
+    color: white;
+    border: 2px solid rgba(51, 160, 255, 1);
+    display: inline-block;
+    -webkit-transform: translateX(-7px);
+            transform: translateX(-7px);
+}
+.input-button-large {
+    border-radius: 0px 3px 3px 0px;
+    padding: 12px;
+    background-color: rgba(51, 160, 255, 1);
+    color: white;
+    height: auto;
+    border: 2px solid rgba(51, 160, 255, 1);
+    display: inline-block;
+    -webkit-transform: translateX(-7px);
+            transform: translateX(-7px);
+}
+.select- {
+    border: 2px solid #F6F7F8;
+    border-radius: 5px;
+    padding: 8px 100px 8px 10px;
+}
+.filled {
+    border: 2px solid #F6F7F8;
+    background-color: #f6f7f8;
+    border-radius: 5px;
+    padding: 8px 100px 8px 10px;
+}
+.small {
+    padding: 4px 50px 4px 10px;
+}
+.large {
+    padding: 12px 100px 12px 10px;
+}
+
+/*# sourceMappingURL=main.43ae5d8c.css.map*/
