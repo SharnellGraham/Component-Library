@@ -1,0 +1,19 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "Building out a component library using React and Storybook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/sharnellgraham/Component-Library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromatic": "^6.17.0"
+  }
+}
